@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Socket IO Code Along</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+	<h1>Hello World</h1>
+	<form id="chat-form">
+		<label>Name:</label>
+		<input type="text" name="name">
+		<br>
+		<label>Message</label>
+		<input type="text" name="chat">
+		<br>
+		<input type="submit" class="btn btn-primary">
+
+	</form>
+	<hr>
+	<div id="messages"></div>
+
+
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/scripts.js"></script>
+</body>
+</html>
